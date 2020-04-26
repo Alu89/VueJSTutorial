@@ -4,7 +4,7 @@
   "description": "HelloWorld Vue",
   "main": "index.js",
   "scripts": {
-    "watch": "webpack --watch",
+    "watch": "webpack --mode=development  --watch",
     "test": "echo \"Error: no test specified\" && exit 1",
     "dev": "webpack",
     "start": "webpack-dashboard webpack-dev-server -d --hot --config webpack.config.js --watch",
